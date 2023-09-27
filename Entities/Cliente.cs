@@ -26,18 +26,6 @@ namespace Person.API.Entities
         public List<Endereco> Enderecos { get; private set; }
 
 
-        public void Alterar(string nome)
-        {
-            Nome = nome;
-        }
-        public void Alterar(string sobrenome)
-        {
-            Sobrenome = sobrenome;
-        }
-        public void Alterar(string email)
-        {
-            Email = email;
-        }
         public void Alterar(string nome, string sobrenome)
         {
             Nome = nome;

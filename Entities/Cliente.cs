@@ -25,17 +25,12 @@ namespace Person.API.Entities
         public DateTime DataCadastro { get; private set; }
         public List<Endereco> Enderecos { get; private set; }
 
-
-        public void Alterar(string nome, string sobrenome)
-        {
-            Nome = nome;
-            Sobrenome = sobrenome;
-        }
-        public void Alterar(string nome, string sobrenome, string email)
+        public void Alterar(string nome, string sobrenome, string email, bool comunicado)
         {
             Nome = nome;
             Sobrenome = sobrenome;
             Email = email;
+            Comunicado = comunicado;
         }
 
     }

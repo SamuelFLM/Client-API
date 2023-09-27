@@ -7,9 +7,9 @@ using Person.API.Entities;
 
 namespace Person.API.Persistence
 {
-    public class ClientesContext : DbContext
+    public class ClienteContext : DbContext
     {
-        public ClientesContext(DbContextOptions<ClientesContext> options) : base(options)
+        public ClienteContext(DbContextOptions<ClienteContext> options) : base(options)
         {
 
         }

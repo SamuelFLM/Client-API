@@ -23,5 +23,13 @@ namespace Person.API.Entities
         public string Email { get; private set; }
         public DateTime DataCadastro { get; private set; }
 
+
+        public void Alterar(string nome, string sobrenome, int idade, string email)
+        {
+            Nome = nome;
+            Sobrenome = sobrenome;
+            Idade = idade;
+            Email = email;
+        }
     }
 }

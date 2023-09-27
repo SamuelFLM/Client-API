@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -13,6 +14,7 @@ namespace Person.API.Entities
             Sobrenome = sobrenome;
             Idade = idade;
             Email = email;
+            DataCadastro = DateTime.Now;
         }
         public int Id { get; private set; }
         public string Nome { get; private set; }

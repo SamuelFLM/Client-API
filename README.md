@@ -14,7 +14,7 @@
 **Será Desevolvida uma API REST completa. <br>**
 **Linguagem C# e framework .NET 7 <br>**
 **Padrão repository com entity framework Core para acesso a dados.<br>**
-**Clean code, logs com serilog, documentação de API's com swagger.<br>**
+**Clean code, logs com serilog, documentação de API's com swagger..<br>**
 
 
 ## **Estrutura**
